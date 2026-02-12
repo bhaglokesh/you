@@ -8,7 +8,7 @@ export const PROFILE = {
   about: `I am a passionate software engineer with experience in building web applications and solving complex problems. I enjoy working with modern technologies and continuously learning new skills.
 
   Currently, I'm focused on building scalable applications and exploring new technologies in the web development ecosystem. When I'm not coding, you can find me reading, hiking, or experimenting with new tech projects.`,
-  image: "/images/profile.jpg", // Updated to local path
+  image: import.meta.env.BASE_URL + "images/profile.jpg",
   socials: {
     github: "https://github.com",
     linkedin: "https://linkedin.com",
@@ -131,22 +131,22 @@ export const SKILLS: SkillCategory[] = [
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: "g1",
-    imageUrl: "/images/gallery-1.jpg",
+    imageUrl: import.meta.env.BASE_URL + "images/gallery-1.jpg",
     caption: "Working on the new server architecture diagram."
   },
   {
     id: "g2",
-    imageUrl: "/images/gallery-2.jpg",
+    imageUrl: import.meta.env.BASE_URL + "images/gallery-2.svg",
     caption: "Team offsite in the mountains (2023)."
   },
   {
     id: "g3",
-    imageUrl: "/images/gallery-3.jpg",
+    imageUrl: import.meta.env.BASE_URL + "images/gallery-3.svg",
     caption: "Speaking at ReactConf regarding performance optimizations."
   },
   {
     id: "g4",
-    imageUrl: "/images/gallery-4.jpg",
+    imageUrl: import.meta.env.BASE_URL + "images/gallery-4.svg",
     caption: "My minimalist home office setup."
   }
 ];
