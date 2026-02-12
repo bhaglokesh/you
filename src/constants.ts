@@ -3,8 +3,8 @@ import type { Experience, NavItem, Project, GalleryItem, Education, BlogPost, Sk
 export const PROFILE = {
   name: "Lokesh Bhagadkar",
   role: "Full Stack Engineer",
-  location: "San Francisco, CA",
-  email: "hello@johndoe.dev",
+  location: "Maharashtra, India",
+  email: "bhag.loki@gmail.com",
   about: `I am a passionate software engineer with experience in building web applications and solving complex problems. I enjoy working with modern technologies and continuously learning new skills.
 
   Currently, I'm focused on building scalable applications and exploring new technologies in the web development ecosystem. When I'm not coding, you can find me reading, hiking, or experimenting with new tech projects.`,
@@ -61,9 +61,9 @@ export const EXPERIENCE: Experience[] = [
 export const EDUCATION: Education[] = [
   {
     id: "edu1",
-    institution: "University of Technology",
+    institution: "Government College Of Engineering, Yavatmal",
     degree: "Bachelor of Science in Computer Science",
-    period: "2015 - 2019",
+    period: "2022 - 2025",
     description: [
       "Graduated with First Class Honours.",
       "Specialized in Artificial Intelligence and Data Structures.",
@@ -72,12 +72,12 @@ export const EDUCATION: Education[] = [
   },
   {
     id: "edu2",
-    institution: "City High School",
-    degree: "High School Diploma (Science Stream)",
-    period: "2013 - 2015",
+    institution: "Government Polytechnic, Yavatmal",
+    degree: "High School Diploma (Technical Stream)",
+    period: "2019 - 2022",
     description: [
-      "Major in Physics, Chemistry, and Mathematics.",
-      "Won State Level Math Olympiad."
+      "Major in Android, Web Development, and Mathematics.",
+      "Won State Level Algo Compitation."
     ]
   }
 ];
