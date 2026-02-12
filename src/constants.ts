@@ -132,7 +132,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: "g1",
     imageUrl: import.meta.env.BASE_URL + "images/gallery-1.jpg",
-    caption: "Working on the new server architecture diagram."
+    caption: "Last day of college project submission."
   },
   {
     id: "g2",
