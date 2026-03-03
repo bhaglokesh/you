@@ -1,9 +1,14 @@
 import React from 'react';
 import type { SectionProps } from '../types';
+import { LAST_UPDATED} from '../constants';
 
 const Section: React.FC<SectionProps> = ({ id, title, children, className = '' }) => {
   // Using current date to simulate the last update time
-  const date = new Date();
+
+
+  const date = LAST_UPDATED;
+
+  //const date = new Date();
   const dateString = date.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
 
   return (

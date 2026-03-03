@@ -1,6 +1,6 @@
 import React from 'react';
 import { Github, Linkedin, Instagram, Youtube } from 'lucide-react';
-import { PROFILE } from '../constants';
+import { PROFILE , LAST_UPDATED} from '../constants';
 
 const Home: React.FC = () => (
   <div className="animate-fade-in max-w-4xl mx-auto">
@@ -71,7 +71,7 @@ const Home: React.FC = () => (
               About Me
             </h2>
             <p className="text-xs text-gray-500 dark:text-gray-400 italic font-sans mt-1 sm:mt-0">
-               Website last modified on {new Date().toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric' })}.
+               Website last modified on {LAST_UPDATED.toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric' })}.
             </p>
           </div>
           <div className="prose dark:prose-invert max-w-none text-gray-900 dark:text-gray-100 font-sans font-light leading-7 text-lg whitespace-pre-line">

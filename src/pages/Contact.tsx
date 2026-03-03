@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Mail, Github, Linkedin, MapPin, ExternalLink, Check, Copy } from 'lucide-react';
 import Section from '../components/Section';
 import Tooltip from '../components/Tooltip';
-import { PROFILE } from '../constants';
+import { PROFILE , LAST_UPDATED} from '../constants';
 
 const Contact: React.FC = () => {
   const [emailCopied, setEmailCopied] = useState(false);
@@ -64,7 +64,7 @@ const Contact: React.FC = () => {
         </div>
       </div>
       <p className="mt-8 text-xs text-gray-400 dark:text-gray-500 italic">
-        This page was last modified on {new Date().toLocaleDateString()}, at {new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}.
+         This page was last modified on {LAST_UPDATED.toLocaleDateString()}, at {LAST_UPDATED.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}.
       </p>
     </Section>
   );

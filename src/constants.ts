@@ -1,5 +1,7 @@
 import type { Experience, NavItem, Project, GalleryItem, Education, BlogPost, SkillCategory } from "./types";
 
+export const LAST_UPDATED = new Date("2026-03-03T12:20:00");
+
 export const PROFILE = {
   name: "Lokesh Bhagadkar",
   role: "Full Stack Engineer",
